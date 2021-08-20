@@ -1,0 +1,29 @@
+.navigation-clean {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .navigation-clean {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.navigation-clean .navbar-brand {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.navigation-clean .navbar-brand:hover {
+  color: #333333;
+}
+
+.navbar {
+  color: var(--bs-dark);
+  background: var(--bs-teal);
+}

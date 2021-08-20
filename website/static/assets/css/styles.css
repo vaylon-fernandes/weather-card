@@ -48,3 +48,11 @@
     text-align: center;
    color: #721c24;
 }
+
+.github-fork-ribbon::before{
+    background-color:teal;
+}
+
+body {
+    background-color:#19E0DD;
+}

@@ -70,3 +70,4 @@ temperature.addEventListener('click', function () {
     }
 
 })
+
