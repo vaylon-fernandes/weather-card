@@ -57,7 +57,9 @@ function celsiusToFahrenheits(Celsius){
 }
 
 temperature.addEventListener('click', function () {
-    if (temperatureData.value === undefined) return
+    if (temperatureData.value === undefined) {
+        return
+    }
 
     if (temperatureData.unit === 'celsius') {
         let fahrenheit = celsiusToFahrenheits(temperatureData.value)
@@ -70,4 +72,3 @@ temperature.addEventListener('click', function () {
     }
 
 })
-
