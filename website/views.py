@@ -29,9 +29,8 @@ def home():
     return render_template('index.html')
 
 
-@views.route('/get_weather', methods=['GET'])
 @views.route('/get_weather/<lat>,<lon>', methods=['GET'])
-def get_weather(lat=15.2832, lon=73.9862):
+def get_weather(lat, lon):
     url = f"https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&units=metric&appid={API_KEY}"
     get_data = requests.get(url).json()
     data = required_data(get_data)
