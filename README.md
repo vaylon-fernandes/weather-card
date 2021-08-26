@@ -116,3 +116,6 @@ Read more here: https://flask.palletsprojects.com/en/2.0.x/quickstart/#debug-mod
 - Open Weather Map Current Weather Map API Docs - https://openweathermap.org/current
 - Flask Docs - https://flask.palletsprojects.com/en/2.0.x/
 - Bootstrap Docs - https://getbootstrap.com/docs/5.0/getting-started/introduction/
+- Code Explained Weather App Repo - https://github.com/CodeExplainedRepo/Weather-App-JavaScript
+## Resources 
+- Weather Icons - [Code Explained Weather App Repo](https://github.com/CodeExplainedRepo/Weather-App-JavaScript/tree/master/icons) - Original [soure](https://github.com/manifestinteractive/weather-underground-icons) 
