@@ -4,7 +4,7 @@ from . import API_KEY
 
 views = Blueprint('views', __name__)
 
-
+#  TODO: comment test
 def required_data(data_from_source):
     icon = str(data_from_source['weather'][0]['icon'])
     temp = str(data_from_source['main']['temp'])
